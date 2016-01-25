@@ -14,6 +14,9 @@
 		8DFE0BCF1A78AEE100220DB1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE0BCE1A78AEE100220DB1 /* Images.xcassets */; };
 		8DFE0BD21A78AEE100220DB1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE0BD01A78AEE100220DB1 /* LaunchScreen.xib */; };
 		8DFE0BDE1A78AEE200220DB1 /* WebUrlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE0BDD1A78AEE200220DB1 /* WebUrlTests.m */; };
+		8DFE0BE91A78B4DB00220DB1 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DFE0BE81A78B4DB00220DB1 /* WebViewController.m */; };
+		8DFE0BEB1A78C44D00220DB1 /* background.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE0BEA1A78C44D00220DB1 /* background.jpeg */; };
+		8DFE0BED1A78CA0900220DB1 /* ipad_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8DFE0BEC1A78CA0900220DB1 /* ipad_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,10 @@
 		8DFE0BD71A78AEE100220DB1 /* WebUrlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebUrlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8DFE0BDC1A78AEE200220DB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8DFE0BDD1A78AEE200220DB1 /* WebUrlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebUrlTests.m; sourceTree = "<group>"; };
+		8DFE0BE71A78B4DB00220DB1 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		8DFE0BE81A78B4DB00220DB1 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		8DFE0BEA1A78C44D00220DB1 /* background.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpeg; sourceTree = "<group>"; };
+		8DFE0BEC1A78CA0900220DB1 /* ipad_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ipad_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +91,15 @@
 				8DFE0BC51A78AEE100220DB1 /* AppDelegate.h */,
 				8DFE0BC61A78AEE100220DB1 /* AppDelegate.m */,
 				8DFE0BC81A78AEE100220DB1 /* ViewController.h */,
+				8DFE0BEA1A78C44D00220DB1 /* background.jpeg */,
 				8DFE0BC91A78AEE100220DB1 /* ViewController.m */,
+				8DFE0BEC1A78CA0900220DB1 /* ipad_background.jpg */,
 				8DFE0BCB1A78AEE100220DB1 /* Main.storyboard */,
 				8DFE0BCE1A78AEE100220DB1 /* Images.xcassets */,
 				8DFE0BD01A78AEE100220DB1 /* LaunchScreen.xib */,
 				8DFE0BC11A78AEE100220DB1 /* Supporting Files */,
+				8DFE0BE71A78B4DB00220DB1 /* WebViewController.h */,
+				8DFE0BE81A78B4DB00220DB1 /* WebViewController.m */,
 			);
 			path = WebUrl;
 			sourceTree = "<group>";
@@ -202,6 +213,8 @@
 				8DFE0BCD1A78AEE100220DB1 /* Main.storyboard in Resources */,
 				8DFE0BD21A78AEE100220DB1 /* LaunchScreen.xib in Resources */,
 				8DFE0BCF1A78AEE100220DB1 /* Images.xcassets in Resources */,
+				8DFE0BEB1A78C44D00220DB1 /* background.jpeg in Resources */,
+				8DFE0BED1A78CA0900220DB1 /* ipad_background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +235,7 @@
 				8DFE0BCA1A78AEE100220DB1 /* ViewController.m in Sources */,
 				8DFE0BC71A78AEE100220DB1 /* AppDelegate.m in Sources */,
 				8DFE0BC41A78AEE100220DB1 /* main.m in Sources */,
+				8DFE0BE91A78B4DB00220DB1 /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
